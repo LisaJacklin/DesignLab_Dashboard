@@ -5,9 +5,12 @@
 - CAMIO Lab:
     - ProxMox - PVE0:
         ping: 10.3.0.2
+        href: https://100.64.0.24:8006/
+        showStats: true
         description: Homepage is awesome
     - OpnSense:
         ping: 10.3.0.1
+        href: https://10.3.0.1/
         description: Firewall
     - Storage Box: 
         description: work in progress..
@@ -15,5 +18,4 @@
         description: Operational Development box; must be accessed through Bastion
     - Bastion Box:
         description: Main jump box to get into Fairbanks CAMIO Lab
-
 
