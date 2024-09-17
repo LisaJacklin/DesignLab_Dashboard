@@ -2,10 +2,14 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- My First Group:
-    - My First Service:
+- CAMIO Lab:
+    - ProxMox - PVE0:
         href: http://localhost/
         description: Homepage is awesome
+    - OpnSense:
+    - Storage Box: 
+    - OT-Dev:
+    - Bastion Box:
 
 - My Second Group:
     - My Second Service:
