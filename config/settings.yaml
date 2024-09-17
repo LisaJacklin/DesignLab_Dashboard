@@ -6,11 +6,13 @@
 title: Design Lab Dashboard
 
 #Background setup
+#doesn't seem to be working....
 volumes:
   - /Documents/Github/DesignLab_Dashboard/images
 
 background: /images/denali.jpg
 
-providers:
-  openweathermap: openweathermapapikey
-  weatherapi: weatherapiapikey
+#need to check the above section...
+
+
+

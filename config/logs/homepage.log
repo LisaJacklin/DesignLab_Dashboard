@@ -18,3 +18,469 @@ See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-comp
 [2024-09-17T19:57:16.745Z] info: [35mevent[39m - compiled successfully in 88 ms (352 modules)
 [2024-09-17T19:57:18.661Z] info: [36mwait[39m  - compiling /_error (client and server)...
 [2024-09-17T19:57:18.955Z] info: [35mevent[39m - compiled client and server successfully in 293 ms (1564 modules)
+[2024-09-17T20:02:12.321Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-17T20:02:12.438Z] info: [35mevent[39m - compiled successfully in 116 ms (352 modules)
+[2024-09-17T20:02:12.652Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T20:02:12.717Z] info: [35mevent[39m - compiled successfully in 65 ms (353 modules)
+[2024-09-17T20:02:14.472Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T20:02:14.684Z] info: [35mevent[39m - compiled client and server successfully in 211 ms (1565 modules)
+[2024-09-17T20:02:17.407Z] error: (node:92222) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 uncaughtException listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2024-09-17T20:02:17.407Z] error: (node:92222) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 unhandledRejection listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+[2024-09-17T21:05:14.401Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-17T21:05:14.481Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:05:14.737Z] info: [35mevent[39m - compiled client and server successfully in 255 ms (1547 modules)
+[2024-09-17T21:05:16.330Z] info: [36mwait[39m  - compiling /api/widgets/resources (client and server)...
+[2024-09-17T21:05:16.339Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-17T21:05:16.340Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-17T21:05:16.341Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-17T21:05:16.378Z] info: [35mevent[39m - compiled successfully in 48 ms (338 modules)
+[2024-09-17T21:05:16.444Z] info: [35mevent[39m - compiled successfully (348 modules)
+[2024-09-17T21:05:16.567Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:05:16.579Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-17T21:05:16.580Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-17T21:05:16.656Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-17T21:05:16.784Z] info: [35mevent[39m - compiled client and server successfully in 216 ms (1564 modules)
+[2024-09-17T21:09:54.185Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:09:54.186Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:09:54.200Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-17T21:09:54.332Z] info: [35mevent[39m - compiled successfully in 132 ms (352 modules)
+[2024-09-17T21:09:54.439Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:09:54.439Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:09:54.494Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:09:54.494Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:09:54.543Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:09:54.603Z] info: [35mevent[39m - compiled successfully in 60 ms (353 modules)
+[2024-09-17T21:09:56.127Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:09:56.127Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:09:56.146Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:09:56.321Z] info: [35mevent[39m - compiled client and server successfully in 175 ms (1565 modules)
+[2024-09-17T21:10:02.312Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:10:02.312Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:10:03.910Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:10:03.910Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:10:52.334Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:10:52.334Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:10:52.344Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:10:52.344Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:10:52.369Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:10:52.369Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:10:53.982Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-17T21:10:53.982Z] error: end of the stream or a document separator is expected (16:1)
+
+ 13 | 
+ 14 | 
+ 15 | #Calendar widget
+ 16 | widget:
+------^
+ 17 |   type: calendar
+ 18 |   firstDayInWeek: sunday #can c ...
+[2024-09-17T21:16:00.661Z] error: <index> YAMLException: end of the stream or a document separator is expected (23:1)
+
+ 20 |   weatherapi: weatherapiapikey
+ 21 | 
+ 22 | #widget calendar...could be hel ...
+ 23 | - widget:
+------^
+ 24 |     type: calendar
+ 25 |     firstDayInWeek: sunday #or  ...
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2735:5)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at getSettings (webpack-internal:///./src/utils/config/config.js:102:75)
+    at getStaticProps (webpack-internal:///./src/pages/index.jsx:113:91)
+    at Object.renderToHTML (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/render.js:386:26)
+    at async doRender (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:687:38)
+    at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:796:28)
+[2024-09-17T21:16:02.296Z] error: Failed to discover services, please check kubernetes.yaml for errors or remove example entries.
+[2024-09-17T21:16:02.296Z] error: YAMLException: end of the stream or a document separator is expected (23:1)
+
+ 20 |   weatherapi: weatherapiapikey
+ 21 | 
+ 22 | #widget calendar...could be hel ...
+ 23 | - widget:
+------^
+ 24 |     type: calendar
+ 25 |     firstDayInWeek: sunday #or  ...
+[2024-09-17T21:16:02.297Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-17T21:16:02.297Z] error: YAMLException: end of the stream or a document separator is expected (23:1)
+
+ 20 |   weatherapi: weatherapiapikey
+ 21 | 
+ 22 | #widget calendar...could be hel ...
+ 23 | - widget:
+------^
+ 24 |     type: calendar
+ 25 |     firstDayInWeek: sunday #or  ...
+[2024-09-17T21:16:02.299Z] error: Failed to load settings.yaml, please check for errors
+[2024-09-17T21:16:02.299Z] error: YAMLException: end of the stream or a document separator is expected (23:1)
+
+ 20 |   weatherapi: weatherapiapikey
+ 21 | 
+ 22 | #widget calendar...could be hel ...
+ 23 | - widget:
+------^
+ 24 |     type: calendar
+ 25 |     firstDayInWeek: sunday #or  ...
+[2024-09-17T21:20:01.687Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:20:01.822Z] info: [35mevent[39m - compiled client and server successfully in 135 ms (270 modules)
+[2024-09-17T21:20:01.970Z] warn: [33mwarn[39m  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+[2024-09-17T21:20:01.980Z] info: [36mwait[39m  - compiling / (client and server)...
+[2024-09-17T21:20:04.600Z] info: [35mevent[39m - compiled client and server successfully in 2.6s (1549 modules)
+[2024-09-17T21:20:05.596Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-17T21:20:05.683Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:20:05.759Z] info: [35mevent[39m - compiled successfully in 76 ms (338 modules)
+[2024-09-17T21:20:07.388Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-17T21:20:07.392Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-17T21:20:07.394Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-17T21:20:07.400Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-17T21:20:07.605Z] info: [35mevent[39m - compiled client and server successfully in 216 ms (1561 modules)
+[2024-09-17T21:20:07.656Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-17T21:20:07.659Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-17T21:20:07.698Z] info: [35mevent[39m - compiled successfully in 42 ms (350 modules)
+[2024-09-17T21:20:07.738Z] info: [35mevent[39m - compiled successfully (352 modules)
+[2024-09-17T21:22:50.402Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-17T21:22:50.492Z] info: [35mevent[39m - compiled successfully in 90 ms (352 modules)
+[2024-09-17T21:22:50.725Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:22:50.794Z] info: [35mevent[39m - compiled successfully in 68 ms (353 modules)
+[2024-09-17T21:22:50.805Z] error: (node:102618) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 uncaughtException listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2024-09-17T21:22:50.805Z] error: (node:102618) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 unhandledRejection listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+[2024-09-17T21:23:21.153Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:23:21.275Z] info: [35mevent[39m - compiled client and server successfully in 122 ms (270 modules)
+[2024-09-17T21:23:21.426Z] warn: [33mwarn[39m  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+[2024-09-17T21:23:21.437Z] info: [36mwait[39m  - compiling / (client and server)...
+[2024-09-17T21:23:24.097Z] info: [35mevent[39m - compiled client and server successfully in 2.7s (1549 modules)
+[2024-09-17T21:23:25.153Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-17T21:23:25.252Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:23:25.315Z] info: [35mevent[39m - compiled successfully in 62 ms (338 modules)
+[2024-09-17T21:23:26.941Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-17T21:23:26.945Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-17T21:23:26.948Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-17T21:23:26.973Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-17T21:23:26.975Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-17T21:23:27.018Z] info: [35mevent[39m - compiled successfully in 77 ms (339 modules)
+[2024-09-17T21:23:27.084Z] info: [35mevent[39m - compiled successfully (350 modules)
+[2024-09-17T21:23:27.113Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-17T21:23:27.150Z] info: [35mevent[39m - compiled successfully in 36 ms (352 modules)
+[2024-09-17T21:24:26.604Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-17T21:24:26.673Z] info: [35mevent[39m - compiled successfully in 69 ms (352 modules)
+[2024-09-17T21:24:26.884Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:24:26.944Z] info: [35mevent[39m - compiled successfully in 60 ms (353 modules)
+[2024-09-17T21:24:28.572Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:24:28.769Z] info: [35mevent[39m - compiled client and server successfully in 197 ms (1565 modules)
+[2024-09-17T21:24:31.518Z] error: (node:103585) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 uncaughtException listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2024-09-17T21:24:31.519Z] error: (node:103585) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 unhandledRejection listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+[2024-09-17T21:29:39.281Z] warn: [33mwarn[39m  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/basic-features/fast-refresh#how-it-works
+[2024-09-17T21:29:39.314Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-17T21:29:39.412Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:29:39.491Z] info: [35mevent[39m - compiled successfully in 77 ms (336 modules)
+[2024-09-17T21:29:41.440Z] info: [36mwait[39m  - compiling /api/widgets/resources (client and server)...
+[2024-09-17T21:29:41.446Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-17T21:29:41.450Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-17T21:29:41.500Z] info: [35mevent[39m - compiled successfully in 59 ms (338 modules)
+[2024-09-17T21:29:41.542Z] info: [35mevent[39m - compiled successfully (341 modules)
+[2024-09-17T21:29:41.651Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-17T21:29:41.686Z] info: [35mevent[39m - compiled successfully in 35 ms (343 modules)
+[2024-09-17T21:29:43.390Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-17T21:29:43.392Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-17T21:29:43.392Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-17T21:29:43.622Z] info: [35mevent[39m - compiled successfully in 231 ms (350 modules)
+[2024-09-17T21:29:43.664Z] info: [35mevent[39m - compiled successfully (352 modules)
+[2024-09-17T21:39:50.942Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:39:50.942Z] error: YAMLException: bad indentation of a sequence entry (21:13)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |         ping: 10.3.0.2
+------------------^
+ 22 |     - Dry Lab Switch
+ 23 |         ping: 10.3.0.3
+[2024-09-17T21:39:50.953Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-17T21:39:51.038Z] info: [35mevent[39m - compiled successfully in 85 ms (352 modules)
+[2024-09-17T21:39:51.143Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:39:51.143Z] error: YAMLException: bad indentation of a sequence entry (21:13)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |         ping: 10.3.0.2
+------------------^
+ 22 |     - Dry Lab Switch
+ 23 |         ping: 10.3.0.3
+[2024-09-17T21:39:51.193Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:39:51.194Z] error: YAMLException: bad indentation of a sequence entry (21:13)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |         ping: 10.3.0.2
+------------------^
+ 22 |     - Dry Lab Switch
+ 23 |         ping: 10.3.0.3
+[2024-09-17T21:39:51.252Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-17T21:39:51.317Z] info: [35mevent[39m - compiled successfully in 65 ms (353 modules)
+[2024-09-17T21:39:52.978Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:39:53.010Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:39:53.010Z] error: YAMLException: bad indentation of a sequence entry (21:13)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |         ping: 10.3.0.2
+------------------^
+ 22 |     - Dry Lab Switch
+ 23 |         ping: 10.3.0.3
+[2024-09-17T21:39:53.175Z] info: [35mevent[39m - compiled client and server successfully in 197 ms (1565 modules)
+[2024-09-17T21:40:49.586Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:40:49.586Z] error: YAMLException: bad indentation of a sequence entry (21:13)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |         ping: 10.3.0.2
+------------------^
+ 22 |     - Dry Lab Switch
+ 23 |         ping: 10.3.0.3
+[2024-09-17T21:40:51.364Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:40:51.364Z] error: YAMLException: bad indentation of a sequence entry (21:13)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |         ping: 10.3.0.2
+------------------^
+ 22 |     - Dry Lab Switch
+ 23 |         ping: 10.3.0.3
+[2024-09-17T21:41:29.274Z] info: [36mwait[39m  - compiling /api/ping (client and server)...
+[2024-09-17T21:41:29.299Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-17T21:41:29.309Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-17T21:41:29.367Z] info: [36minfo[39m  - Using external babel configuration from /home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/.babelrc
+[2024-09-17T21:41:29.831Z] info: [35mevent[39m - compiled client and server successfully in 557 ms (1563 modules)
+[2024-09-17T21:41:29.866Z] error: (node:105415) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 uncaughtException listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2024-09-17T21:41:29.867Z] error: (node:105415) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 unhandledRejection listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+[2024-09-17T21:41:29.943Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-17T21:41:29.945Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-17T21:41:29.979Z] info: [35mevent[39m - compiled successfully in 36 ms (352 modules)
+[2024-09-17T21:41:30.020Z] info: [35mevent[39m - compiled successfully (353 modules)
+[2024-09-17T21:41:30.043Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-17T21:41:30.080Z] info: [35mevent[39m - compiled successfully in 37 ms (355 modules)
+[2024-09-17T21:42:55.605Z] error: YAMLException: bad indentation of a sequence entry (21:12)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |        ping: 10.3.0.2
+-----------------^
+ 22 |     - Dry Lab Switch
+ 23 |        ping: 10.3.0.3
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readBlockMapping (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+[2024-09-17T21:42:55.607Z] error: YAMLException: bad indentation of a sequence entry (21:12)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |        ping: 10.3.0.2
+-----------------^
+ 22 |     - Dry Lab Switch
+ 23 |        ping: 10.3.0.3
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2105:7)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readBlockMapping (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2254:11)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+[2024-09-17T21:42:55.638Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:42:55.638Z] error: YAMLException: bad indentation of a sequence entry (21:12)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |        ping: 10.3.0.2
+-----------------^
+ 22 |     - Dry Lab Switch
+ 23 |        ping: 10.3.0.3
+[2024-09-17T21:42:55.732Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:42:55.732Z] error: YAMLException: bad indentation of a sequence entry (21:12)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |        ping: 10.3.0.2
+-----------------^
+ 22 |     - Dry Lab Switch
+ 23 |        ping: 10.3.0.3
+[2024-09-17T21:42:55.770Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:42:55.770Z] error: YAMLException: bad indentation of a sequence entry (21:12)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |        ping: 10.3.0.2
+-----------------^
+ 22 |     - Dry Lab Switch
+ 23 |        ping: 10.3.0.3
+[2024-09-17T21:42:57.518Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:42:57.519Z] error: YAMLException: bad indentation of a sequence entry (21:12)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |     - Design Lab Switch
+ 21 |        ping: 10.3.0.2
+-----------------^
+ 22 |     - Dry Lab Switch
+ 23 |        ping: 10.3.0.3
+[2024-09-17T21:43:43.678Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:43:43.678Z] error: YAMLException: bad indentation of a sequence entry (21:9)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |   - Design Lab Switch
+ 21 |     ping: 10.3.0.2
+--------------^
+ 22 |   - Dry Lab Switch
+ 23 |     ping: 10.3.0.3
+[2024-09-17T21:43:43.712Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:43:43.712Z] error: YAMLException: bad indentation of a sequence entry (21:9)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |   - Design Lab Switch
+ 21 |     ping: 10.3.0.2
+--------------^
+ 22 |   - Dry Lab Switch
+ 23 |     ping: 10.3.0.3
+[2024-09-17T21:43:45.459Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:43:45.459Z] error: YAMLException: bad indentation of a sequence entry (21:9)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |   - Design Lab Switch
+ 21 |     ping: 10.3.0.2
+--------------^
+ 22 |   - Dry Lab Switch
+ 23 |     ping: 10.3.0.3
+[2024-09-17T21:44:09.848Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:44:09.848Z] error: YAMLException: bad indentation of a sequence entry (21:11)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |   - Design Lab Switch
+ 21 |       ping: 10.3.0.2
+----------------^
+ 22 |   - Dry Lab Switch
+ 23 |       ping: 10.3.0.3
+[2024-09-17T21:44:09.878Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:44:09.878Z] error: YAMLException: bad indentation of a sequence entry (21:11)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |   - Design Lab Switch
+ 21 |       ping: 10.3.0.2
+----------------^
+ 22 |   - Dry Lab Switch
+ 23 |       ping: 10.3.0.3
+[2024-09-17T21:44:11.635Z] error: Failed to load services.yaml, please check for errors
+[2024-09-17T21:44:11.635Z] error: YAMLException: bad indentation of a sequence entry (21:11)
+
+ 18 | 
+ 19 | - CAMIO Switches:
+ 20 |   - Design Lab Switch
+ 21 |       ping: 10.3.0.2
+----------------^
+ 22 |   - Dry Lab Switch
+ 23 |       ping: 10.3.0.3

@@ -4,19 +4,16 @@
 
 - CAMIO Lab:
     - ProxMox - PVE0:
-        href: http://localhost/
+        ping: 10.3.0.2
         description: Homepage is awesome
     - OpnSense:
+        ping: 10.3.0.1
+        description: Firewall
     - Storage Box: 
+        description: work in progress..
     - OT-Dev:
+        description: Operational Development box; must be accessed through Bastion
     - Bastion Box:
+        description: Main jump box to get into Fairbanks CAMIO Lab
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
