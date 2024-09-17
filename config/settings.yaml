@@ -1,0 +1,13 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+#title includes
+title: Design Lab Dashboard
+
+#Background setup
+background: /Documents/Github/DesignLab_Dashboard/images/denali.jpg
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
