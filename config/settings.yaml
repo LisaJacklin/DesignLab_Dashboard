@@ -6,7 +6,10 @@
 title: Design Lab Dashboard
 
 #Background setup
-background: /Documents/Github/DesignLab_Dashboard/images/denali.jpg
+volumes:
+  - /Documents/Github/DesignLab_Dashboard/images
+
+background: /images/denali.jpg
 
 providers:
   openweathermap: openweathermapapikey

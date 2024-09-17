@@ -1,0 +1,11 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+
+#these could be helpful to include like the Proxmox, etc access links.
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/
+
