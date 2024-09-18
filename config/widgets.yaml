@@ -11,19 +11,8 @@
     provider: duckduckgo
     target: _blank
 
-#adding in date and time for reference
-- datetime:
-    text_size: md
-    locale: nl
-    format:
-      timeStyle: short
-      hourCycle: h23
- 
-#adding in a glance for host computer
-- glances:
-    url: http://localhost:3000
-    cpu: true
-    mem: true
-    cputemp: true
-    uptime: true
-    expanded: true
+- glance:
+    - datetime:
+        text_size: md
+        format:
+          timeStyle: short
