@@ -19,7 +19,7 @@
     - Bastion Box:
         description: Main jump box to get into Fairbanks CAMIO Lab
 
-- CAMIO Switches
+- CAMIO Switches:
     - Design Lab Switch:
         ping 10.3.0.2
         href: https://10.3.0.2/
@@ -29,7 +29,7 @@
         href: https://10.3.0.3/
         description: connection to the Dry Lab switch
 
-- PiKVM Connections
+- PiKVM Connections:
     - ProxMox in Rack:
         ping: 10.25.158.247
         href: https://10.25.158.247/
