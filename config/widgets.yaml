@@ -20,9 +20,9 @@
       hourCycle: h23
  
 #adding in a glance for host computer
-- glances:
-    cpu: true
-    mem: true
-    cputemp: true
-    uptime: true
-    expanded: true
+#- glances:
+#    cpu: true
+#    mem: true
+#    cputemp: true
+#    uptime: true
+#    expanded: true
