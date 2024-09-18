@@ -23,4 +23,10 @@
       view: monthly
       maxEvents: 10
       showTime: true
-
+      integrations:
+        - type: sonarr
+          service_group: Media
+          service_name: Sonarr
+          color: teal
+          params:
+            unmonitored: true
