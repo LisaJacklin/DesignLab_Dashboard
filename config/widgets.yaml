@@ -12,21 +12,5 @@
 #    target: _blank
 
 
-- ProxMox:
+#- ProxMox:
   
-
-- Calendar: 
-    description: monthly breakdown
-    widget:
-      type: calendar
-      firstDayInWeek: sunday
-      view: monthly
-      maxEvents: 10
-      showTime: true
-      integrations:
-        - type: sonarr
-          service_group: Media
-          service_name: Sonarr
-          color: teal
-          params:
-            unmonitored: true

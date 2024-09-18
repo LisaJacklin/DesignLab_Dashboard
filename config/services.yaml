@@ -4,7 +4,7 @@
 
 - CAMIO Lab:
     - ProxMox - PVE0:
-        ping: 10.3.0.2
+        ping: 100.64.0.24
         href: https://100.64.0.24:8006/
         description: Homepage is awesome
     - OpnSense:
@@ -18,4 +18,20 @@
         description: Operational Development box; must be accessed through Bastion
     - Bastion Box:
         description: Main jump box to get into Fairbanks CAMIO Lab
+
+- CAMIO Switches
+    - Design Lab Switch:
+        ping 10.3.0.2
+        href: https://10.3.0.2/
+        description: connection to the Design Lab switch
+    - Dry Lab Switch:
+        ping 10.3.0.3
+        href: https://10.3.0.3/
+        description: connection to the Dry Lab switch
+
+- PiKVM Connections
+    - ProxMox in Rack:
+        ping: 10.25.158.247
+        href: https://10.25.158.247/
+        description: Virtual connection to Proxmox in server rack
 
