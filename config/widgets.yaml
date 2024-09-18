@@ -11,8 +11,7 @@
     provider: duckduckgo
     target: _blank
 
-- glance:
-    - datetime:
-        text_size: md
-        format:
-          timeStyle: short
+- datetime:
+    text_size: xl
+    format:
+      timeStyle: short
