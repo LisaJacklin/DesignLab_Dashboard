@@ -6,7 +6,6 @@
     - ProxMox - PVE0:
         ping: 10.3.0.2
         href: https://100.64.0.24:8006/
-        showStats: true
         description: Homepage is awesome
     - OpnSense:
         ping: 10.3.0.1
