@@ -7,10 +7,22 @@
 #    memory: true
 #    disk: /
 
-#- search:
-#    provider: duckduckgo
-#    target: _blank
+- search:
+    provider: duckduckgo
+    target: _blank
 
-
-#- ProxMox:
-  
+#adding in date and time for reference
+- datetime:
+    text_size: md
+    locale: nl
+    format:
+      timeStyle: short
+      hourCycle: h23
+ 
+#adding in a glance for host computer
+- glances:
+    cpu: true
+    mem: true
+    cputemp: true
+    uptime: true
+    expanded: true
