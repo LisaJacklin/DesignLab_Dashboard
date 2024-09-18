@@ -21,11 +21,11 @@
 
 - CAMIO Switches:
     - Design Lab Switch:
-        ping 10.3.0.2
+        ping: 10.3.0.2
         href: https://10.3.0.2/
         description: connection to the Design Lab switch
     - Dry Lab Switch:
-        ping 10.3.0.3
+        ping: 10.3.0.3
         href: https://10.3.0.3/
         description: connection to the Dry Lab switch
 
