@@ -14,6 +14,7 @@
     - Storage Box: 
         description: work in progress..
     - OT-Dev:
+        ping: 
         description: Operational Development box; must be accessed through Bastion
     - Bastion Box:
         description: Main jump box to get into Fairbanks CAMIO Lab
