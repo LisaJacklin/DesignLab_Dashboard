@@ -589,3 +589,271 @@ See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-comp
 See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
 [2024-09-17T23:51:18.599Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
 [2024-09-17T23:51:18.673Z] info: [35mevent[39m - compiled successfully in 74 ms (355 modules)
+[2024-09-18T20:38:31.024Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-18T20:38:31.039Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-18T20:38:31.058Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-18T20:38:31.061Z] info: [35mevent[39m - compiled successfully in 35 ms (68 modules)
+[2024-09-18T20:38:31.081Z] info: [35mevent[39m - compiled successfully (70 modules)
+[2024-09-18T20:38:31.103Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-18T20:38:31.108Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-18T20:38:31.126Z] info: [35mevent[39m - compiled successfully in 22 ms (72 modules)
+[2024-09-18T20:38:31.144Z] info: [35mevent[39m - compiled successfully (73 modules)
+[2024-09-18T20:38:31.179Z] info: [36mwait[39m  - compiling / (client and server)...
+[2024-09-18T20:38:34.074Z] info: [35mevent[39m - compiled client and server successfully in 2.9s (1563 modules)
+[2024-09-18T20:38:34.672Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-18T20:38:34.806Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-18T20:38:34.870Z] info: [35mevent[39m - compiled successfully in 64 ms (353 modules)
+[2024-09-18T20:40:43.325Z] info: [36mwait[39m  - compiling /api/widgets/glances (client and server)...
+[2024-09-18T20:40:43.480Z] info: [36minfo[39m  - Using external babel configuration from /home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/.babelrc
+[2024-09-18T20:40:43.834Z] info: [35mevent[39m - compiled successfully in 508 ms (360 modules)
+[2024-09-18T20:40:43.984Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:40:43.986Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:40:43.986Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:40:46.364Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:40:46.364Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:40:46.364Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:40:49.371Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:40:49.372Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:40:49.372Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:40:52.379Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:40:52.379Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:40:52.379Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:40:55.386Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:40:55.387Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:40:55.387Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:40:58.395Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:40:58.395Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:40:58.395Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:01.401Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:01.402Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:01.402Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:04.409Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:04.409Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:04.409Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:07.417Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:07.418Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:07.418Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:10.434Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:10.434Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:10.434Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:13.458Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:13.458Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:13.459Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:16.465Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:16.465Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:16.465Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:19.474Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:19.475Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:19.475Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:22.494Z] error: <httpProxy> Error calling http://localhost/api/3/cpu...
+[2024-09-18T20:41:22.495Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1115:18)
+      at afterConnectMultiple (node:net:1595:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-09-18T20:41:22.495Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2024-09-18T20:41:25.507Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-18T20:41:25.531Z] error: [31merror[39m - (api)/src/pages/api/widgets/glances.js (48:2) @ handler
+[2024-09-18T20:41:25.531Z] error: TypeError: Cannot set properties of undefined (setting 'version')
+    at handler (webpack-internal:///(api)/./src/pages/api/widgets/glances.js:65:32)
+    at async Object.apiResolver (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async DevServer.runApi (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async DevServer.run (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async DevServer.run (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:709:20)
+    at async DevServer.handleRequest (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+[2024-09-18T20:41:25.531Z] error: [0m [90m 46 | [39m[0m
+[0m [90m 47 | [39m  [36mconst[39m privateWidgetOptions [33m=[39m [36mawait[39m getPrivateWidgetOptions([32m"glances"[39m[33m,[39m index)[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 48 | [39m  privateWidgetOptions[33m.[39mversion [33m=[39m version [33m?[39m[33m?[39m [35m3[39m[33m;[39m[0m
+[0m [90m    | [39m [31m[1m^[22m[39m[0m
+[0m [90m 49 | [39m[0m
+[0m [90m 50 | [39m  [36mtry[39m {[0m
+[0m [90m 51 | [39m    [36mconst[39m cpuData [33m=[39m [36mawait[39m retrieveFromGlancesAPI(privateWidgetOptions[33m,[39m [32m"cpu"[39m)[33m;[39m[0m
+[2024-09-18T20:41:25.857Z] info: [35mevent[39m - compiled client and server successfully in 349 ms (1561 modules)
+[2024-09-18T20:41:28.493Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-18T20:41:28.495Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-18T20:41:28.512Z] error: [31merror[39m - (api)/src/pages/api/widgets/glances.js (48:2) @ handler
+[2024-09-18T20:41:28.512Z] error: TypeError: Cannot set properties of undefined (setting 'version')
+    at handler (webpack-internal:///(api)/./src/pages/api/widgets/glances.js:65:32)
+    at async Object.apiResolver (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/api-utils/node.js:366:9)
+    at async DevServer.runApi (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:481:9)
+    at async Object.fn (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:741:37)
+    at async Router.execute (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/router.js:252:36)
+    at async DevServer.run (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:365:29)
+    at async DevServer.run (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/dev/next-dev-server.js:709:20)
+    at async DevServer.handleRequest (/home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/next@12.3.4_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:303:20)
+[2024-09-18T20:41:28.512Z] error: [0m [90m 46 | [39m[0m
+[0m [90m 47 | [39m  [36mconst[39m privateWidgetOptions [33m=[39m [36mawait[39m getPrivateWidgetOptions([32m"glances"[39m[33m,[39m index)[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 48 | [39m  privateWidgetOptions[33m.[39mversion [33m=[39m version [33m?[39m[33m?[39m [35m3[39m[33m;[39m[0m
+[0m [90m    | [39m [31m[1m^[22m[39m[0m
+[0m [90m 49 | [39m[0m
+[0m [90m 50 | [39m  [36mtry[39m {[0m
+[0m [90m 51 | [39m    [36mconst[39m cpuData [33m=[39m [36mawait[39m retrieveFromGlancesAPI(privateWidgetOptions[33m,[39m [32m"cpu"[39m)[33m;[39m[0m
+[2024-09-18T20:41:28.736Z] info: [35mevent[39m - compiled client and server successfully in 243 ms (1565 modules)
+[2024-09-18T20:41:28.875Z] error: (node:17940) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 uncaughtException listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2024-09-18T20:41:28.875Z] error: (node:17940) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 unhandledRejection listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+[2024-09-18T20:41:28.965Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-18T20:41:29.157Z] info: [35mevent[39m - compiled client and server successfully in 191 ms (1566 modules)
+[2024-09-18T20:41:30.756Z] info: [36mwait[39m  - compiling /api/widgets/resources (client and server)...
+[2024-09-18T20:41:30.845Z] info: [35mevent[39m - compiled successfully in 89 ms (356 modules)
+[2024-09-18T20:41:31.016Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-18T20:41:31.091Z] info: [35mevent[39m - compiled successfully in 75 ms (357 modules)
+[2024-09-18T20:41:31.142Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-18T20:41:31.145Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-18T20:41:31.184Z] info: [35mevent[39m - compiled successfully in 41 ms (358 modules)
+[2024-09-18T20:41:31.219Z] info: [35mevent[39m - compiled successfully (359 modules)
+[2024-09-18T20:41:31.247Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-18T20:41:31.286Z] info: [35mevent[39m - compiled successfully in 39 ms (361 modules)
+[2024-09-18T20:41:31.292Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-18T20:41:31.324Z] info: [35mevent[39m - compiled successfully in 32 ms (362 modules)
+[2024-09-18T20:51:59.286Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-18T20:51:59.286Z] error: end of the stream or a document separator is expected (29:1)
+
+ 26 | 
+ 27 | 
+ 28 | # speedtest because idk could b ...
+ 29 | widget:
+------^
+ 30 |   type: speedtest
+ 31 |   url: http://speedtest.host.or.ip
+[2024-09-18T20:51:59.429Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-18T20:51:59.430Z] error: end of the stream or a document separator is expected (29:1)
+
+ 26 | 
+ 27 | 
+ 28 | # speedtest because idk could b ...
+ 29 | widget:
+------^
+ 30 |   type: speedtest
+ 31 |   url: http://speedtest.host.or.ip
+[2024-09-18T20:51:59.474Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-18T20:51:59.474Z] error: end of the stream or a document separator is expected (29:1)
+
+ 26 | 
+ 27 | 
+ 28 | # speedtest because idk could b ...
+ 29 | widget:
+------^
+ 30 |   type: speedtest
+ 31 |   url: http://speedtest.host.or.ip
+[2024-09-18T20:52:01.206Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2024-09-18T20:52:01.207Z] error: end of the stream or a document separator is expected (29:1)
+
+ 26 | 
+ 27 | 
+ 28 | # speedtest because idk could b ...
+ 29 | widget:
+------^
+ 30 |   type: speedtest
+ 31 |   url: http://speedtest.host.or.ip

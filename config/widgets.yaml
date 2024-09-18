@@ -2,16 +2,28 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/service-widgets
 
-#- resources:
-#    cpu: true
-#    memory: true
-#    disk: /
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+    label: Host Computer
 
-- search:
-    provider: duckduckgo
-    target: _blank
+#don't think a search bar is neccessary
+#- search:
+#    provider: duckduckgo
+#    target: _blank
 
 - datetime:
     text_size: xl
+    locale: nl
     format:
       timeStyle: short
+      hourCycle: h23
+
+- greeting:
+    text_size: xl
+    text: CAMIO Design Lab Dashboard
+
+#I'd love to add in resources for proxmox to this board if I could get that to operate...
+#I can add in the Proxmox and PBS to this set as well at some point with some API tokens.
+#same goes for OPNsense too
