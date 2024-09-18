@@ -33,13 +33,3 @@ widget:
       color: zinc # optional - defaults to pre-defined color for the service (zinc for ical)
       params: # optional - additional params for the service
         showName: true # optional - show name before event title in event line - defaults to false
-
-
-#and the second agenda style calendar
-widget:
-  type: calendar
-  view: agenda
-  maxEvents: 10 # optional - defaults to 10
-  showTime: true # optional - show time for event happening today - defaults to false
-  previousDays: 3 # optional - shows events since three days ago - defaults to 0
-  integrations: # same as in Monthly view example  
