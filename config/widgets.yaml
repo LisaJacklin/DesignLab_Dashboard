@@ -2,23 +2,13 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/service-widgets
 
-- resources:
-    cpu: true
-    memory: true
-    disk: /
+#- resources:
+#    cpu: true
+#    memory: true
+#    disk: /
 
-- search:
-    provider: duckduckgo
-    target: _blank
+#- search:
+#    provider: duckduckgo
+#    target: _blank
 
 
-#testing out using calendars with the snapshots included on the dev page
-
----
-widget:
-  type: calendar
-  view: agenda
-  maxEvents: 10
-  showTime: true
-  previousDays: 3
-  integrations: null
