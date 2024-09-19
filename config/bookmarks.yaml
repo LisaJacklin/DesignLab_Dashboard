@@ -5,8 +5,14 @@
 
 #these could be helpful to include like the Proxmox, etc access links.
 - Developer:
-    - Github:
+    - Data Ducts Github:
         - abbr: DD
           href: https://github.com/acep-uaf/data-ducts
 
+    - Keeper Security: 
+        - abbr: KPR
+          href: https://keepersecurity.com/vault/#
 
+    - Authentik:
+        - abbr: ANK
+          href: https://auth.lab.acep.uaf.edu/if/user/#/library

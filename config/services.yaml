@@ -11,8 +11,8 @@
         ping: 10.3.0.1
         href: https://10.3.0.1/
         description: Firewall
-    - Storage Box: 
-        description: work in progress..
+#    - Storage Box: 
+#        description: work in progress..
     - OT-Dev:
         ping: 
         description: Operational Development box; must be accessed through Bastion
