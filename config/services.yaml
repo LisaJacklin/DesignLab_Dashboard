@@ -7,7 +7,7 @@
 # Tailscale ping and link
        ping: 100.64.0.24
        href: https://100.64.0.24:8006/
-        description: Main server sitting beside the Design Lab FS Switch
+       description: Main server sitting beside the Design Lab FS Switch
 
     - PVE1:
         ping: 10.8.0.11
@@ -50,4 +50,9 @@
       # note to use this I need to have API keys...
 
 #at some point with the camio backup server TrueNAS should be added in here....
+- Backups:
+    - Storage Box:
+        description: running TrueNAS
+    - Proxmox Backup Server:
+        description: running PBS
 

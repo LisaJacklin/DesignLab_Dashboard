@@ -875,3 +875,103 @@ See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-comp
 [2024-09-20T22:00:33.009Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
 [2024-09-20T22:00:33.010Z] info: [35mevent[39m - compiled successfully in 46 ms (352 modules)
 [2024-09-20T22:00:33.048Z] info: [35mevent[39m - compiled successfully (353 modules)
+[2024-09-20T22:31:55.476Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:31:55.476Z] error: YAMLException: bad indentation of a mapping entry (10:20)
+
+  7 | # Tailscale ping and link
+  8 |        ping: 100.64.0.24
+  9 |        href: https://100.64.0.24:8006/
+ 10 |         description: Main server sitting beside th ...
+-------------------------^
+ 11 | 
+ 12 |     - PVE1:
+[2024-09-20T22:32:12.471Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:32:12.471Z] error: YAMLException: bad indentation of a mapping entry (10:20)
+
+  7 | # Tailscale ping and link
+  8 |        ping: 100.64.0.24
+  9 |        href: https://100.64.0.24:8006/
+ 10 |         description: Main server sitting beside th ...
+-------------------------^
+ 11 | 
+ 12 |     - PVE1:
+[2024-09-20T22:32:12.509Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-20T22:32:12.603Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-20T22:32:12.861Z] info: [35mevent[39m - compiled client and server successfully in 258 ms (1547 modules)
+[2024-09-20T22:32:14.469Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-20T22:32:14.473Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-20T22:32:14.473Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-20T22:32:14.473Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-20T22:32:14.474Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-20T22:32:14.519Z] info: [35mevent[39m - compiled successfully in 49 ms (338 modules)
+[2024-09-20T22:32:14.611Z] info: [35mevent[39m - compiled successfully (348 modules)
+[2024-09-20T22:32:14.653Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:32:14.654Z] error: YAMLException: bad indentation of a mapping entry (10:20)
+
+  7 | # Tailscale ping and link
+  8 |        ping: 100.64.0.24
+  9 |        href: https://100.64.0.24:8006/
+ 10 |         description: Main server sitting beside th ...
+-------------------------^
+ 11 | 
+ 12 |     - PVE1:
+[2024-09-20T22:32:14.666Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-20T22:32:14.731Z] info: [35mevent[39m - compiled successfully in 64 ms (350 modules)
+[2024-09-20T22:32:14.765Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-20T22:32:14.801Z] info: [35mevent[39m - compiled successfully in 36 ms (351 modules)
+[2024-09-20T22:32:14.894Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:32:14.894Z] error: YAMLException: bad indentation of a mapping entry (10:20)
+
+  7 | # Tailscale ping and link
+  8 |        ping: 100.64.0.24
+  9 |        href: https://100.64.0.24:8006/
+ 10 |         description: Main server sitting beside th ...
+-------------------------^
+ 11 | 
+ 12 |     - PVE1:
+[2024-09-20T22:32:14.931Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:32:14.931Z] error: YAMLException: bad indentation of a mapping entry (10:20)
+
+  7 | # Tailscale ping and link
+  8 |        ping: 100.64.0.24
+  9 |        href: https://100.64.0.24:8006/
+ 10 |         description: Main server sitting beside th ...
+-------------------------^
+ 11 | 
+ 12 |     - PVE1:
+[2024-09-20T22:32:16.499Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:32:16.499Z] error: YAMLException: bad indentation of a mapping entry (10:20)
+
+  7 | # Tailscale ping and link
+  8 |        ping: 100.64.0.24
+  9 |        href: https://100.64.0.24:8006/
+ 10 |         description: Main server sitting beside th ...
+-------------------------^
+ 11 | 
+ 12 |     - PVE1:
+[2024-09-20T22:32:58.167Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:32:58.167Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-09-20T22:33:11.485Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-20T22:33:11.489Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-20T22:33:11.489Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-20T22:33:11.490Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-20T22:33:11.492Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-20T22:33:11.718Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:33:11.718Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-09-20T22:33:11.762Z] info: [35mevent[39m - compiled successfully in 277 ms (345 modules)
+[2024-09-20T22:33:11.784Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-20T22:33:11.876Z] info: [35mevent[39m - compiled successfully (350 modules)
+[2024-09-20T22:33:11.929Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-20T22:33:11.939Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:33:11.939Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-09-20T22:33:12.168Z] info: [35mevent[39m - compiled client and server successfully in 238 ms (1563 modules)
+[2024-09-20T22:33:12.379Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:33:12.379Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-09-20T22:33:14.016Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:33:14.016Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-09-20T22:33:30.202Z] error: Failed to load services.yaml, please check for errors
+[2024-09-20T22:33:30.202Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
+[2024-09-20T22:34:01.259Z] info: [36mwait[39m  - compiling /api/ping (client and server)...
+[2024-09-20T22:34:01.345Z] info: [35mevent[39m - compiled successfully in 86 ms (353 modules)
