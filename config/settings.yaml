@@ -14,3 +14,22 @@ background:
 cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
 
 headerStyle: underlined
+
+
+#now to play with formatting and layout
+useEqualHeights: true
+
+layout:
+ #if I wanted tabs, this is where to put them!
+  ProxMox Cluster:
+    style: row
+    columns: 3
+
+  Switches:
+    style: grid
+    columns: 1
+
+  Backups:
+    style: grid
+    columns: 1
+
