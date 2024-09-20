@@ -19,7 +19,7 @@
     locale: nl
     format:
       timeStyle: short
-      hourCycle: h23
+      hourCycle: h12
 
 - greeting:
     text_size: xl
