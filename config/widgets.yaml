@@ -2,11 +2,12 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/service-widgets
 
-- resources:
-    cpu: true
-    memory: true
-    disk: /
-    label: Host Computer
+#I'd like to move this elsewhere if possible...
+#- resources:
+#    cpu: true
+#    memory: true
+#    disk: /
+#    label: Host Computer
 
 #don't think a search bar is neccessary
 #- search:
