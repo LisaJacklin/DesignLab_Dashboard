@@ -2,16 +2,14 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- CAMIO ProxMox Cluster:
-    - ProxMox - PVE0:
-        ping: 10.25.159.77
-        href: https://10.25.159.77:8006/
+- ProxMox Cluster:
+    - PVE0:
 # Tailscale ping and link
-#       ping: 100.64.0.24
-#       href: https://100.64.0.24:8006/
+       ping: 100.64.0.24
+       href: https://100.64.0.24:8006/
         description: Main server sitting beside the Design Lab FS Switch
 
-    - ProxMox - PVE1:
+    - PVE1:
         ping: 10.8.0.11
         href: https://10.8.0.11:8006/
         description: In development by John, additional Proxmox to add to cluster
@@ -30,7 +28,7 @@
 #    - Bastion Box:
 #        description: Main jump box to get into Fairbanks CAMIO Lab
 
-- CAMIO Switches:
+- Switches:
     - Design Lab Switch - 0:
         ping: 10.3.0.2
         href: https://10.3.0.2/
