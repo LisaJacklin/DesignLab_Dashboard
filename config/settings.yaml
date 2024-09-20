@@ -21,15 +21,36 @@ useEqualHeights: true
 
 layout:
  #if I wanted tabs, this is where to put them!
+  
+#first, tour and basic overview resources
+  Basics:
+    tab: CAMIO Basics
+    #header: false
+    style: grid
+    columns: 1
+
+#now actual hardware stats
   ProxMox Cluster:
+    tab: CAMIO Resources
     style: row
     columns: 3
 
   Switches:
+    tab: CAMIO Resources
     style: grid
     columns: 1
 
   Backups:
+    tab: CAMIO Resources
     style: grid
     columns: 1
 
+  PiKVM Connections:
+    tab: CAMIO Resources
+    style: grid
+    columns: 1
+
+  Developer:
+    tab: CAMIO Resources
+    style: row
+    columns: 3

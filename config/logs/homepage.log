@@ -975,3 +975,107 @@ See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-comp
 [2024-09-20T22:33:30.202Z] error: TypeError: servicesGroup[Object.keys(...)[0]].map is not a function
 [2024-09-20T22:34:01.259Z] info: [36mwait[39m  - compiling /api/ping (client and server)...
 [2024-09-20T22:34:01.345Z] info: [35mevent[39m - compiled successfully in 86 ms (353 modules)
+[2024-09-20T23:13:18.845Z] warn: Do not add stylesheets using next/head (see <link rel="stylesheet"> tag with href="/api/config/custom.css"). Use Document instead. 
+See more info here: https://nextjs.org/docs/messages/no-stylesheets-in-head-component
+[2024-09-20T23:13:18.931Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-20T23:13:19.222Z] info: [35mevent[39m - compiled client and server successfully in 290 ms (1547 modules)
+[2024-09-20T23:13:20.821Z] info: [36mwait[39m  - compiling /api/validate (client and server)...
+[2024-09-20T23:13:20.824Z] info: [36mwait[39m  - compiling /api/hash (client and server)...
+[2024-09-20T23:13:20.825Z] info: [36mwait[39m  - compiling /api/widgets (client and server)...
+[2024-09-20T23:13:20.825Z] info: [36mwait[39m  - compiling /api/services (client and server)...
+[2024-09-20T23:13:20.825Z] info: [36mwait[39m  - compiling /api/bookmarks (client and server)...
+[2024-09-20T23:13:20.897Z] info: [35mevent[39m - compiled successfully in 76 ms (337 modules)
+[2024-09-20T23:13:20.980Z] info: [35mevent[39m - compiled successfully (348 modules)
+[2024-09-20T23:13:21.026Z] info: [36mwait[39m  - compiling /api/ping (client and server)...
+[2024-09-20T23:13:21.091Z] info: [35mevent[39m - compiled successfully in 65 ms (350 modules)
+[2024-09-20T23:13:21.299Z] info: [36mwait[39m  - compiling /api/releases (client and server)...
+[2024-09-20T23:13:21.350Z] info: [35mevent[39m - compiled successfully in 51 ms (352 modules)
+[2024-09-20T23:15:09.311Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-20T23:15:09.394Z] info: [35mevent[39m - compiled successfully in 82 ms (352 modules)
+[2024-09-20T23:15:09.612Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-20T23:15:09.668Z] info: [35mevent[39m - compiled successfully in 55 ms (353 modules)
+[2024-09-20T23:46:00.702Z] error: YAMLException: bad indentation of a mapping entry (22:5)
+
+ 19 | 
+ 20 | - Basics:
+ 21 |     header: false
+ 22 |     - Camio Lab Overview:
+----------^
+ 23 |         - abbr: CLO
+ 24 |           href: https://docs.google ...
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (webpack-internal:///(api)/./src/utils/config/api-response.js:50:69)
+[2024-09-20T23:46:00.704Z] info: [36mwait[39m  - compiling /_error (client and server)...
+[2024-09-20T23:46:01.113Z] info: [36mwait[39m  - compiling /api/revalidate (client and server)...
+[2024-09-20T23:46:01.162Z] info: [35mevent[39m - compiled client and server successfully in 458 ms (1563 modules)
+[2024-09-20T23:46:01.202Z] info: [35mevent[39m - compiled client and server successfully (1564 modules)
+[2024-09-20T23:46:01.323Z] error: (node:221626) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 uncaughtException listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+[2024-09-20T23:46:01.324Z] error: (node:221626) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 unhandledRejection listeners added to [process]. Use emitter.setMaxListeners() to increase limit
+[2024-09-20T23:46:01.334Z] error: <index> YAMLException: bad indentation of a mapping entry (22:5)
+
+ 19 | 
+ 20 | - Basics:
+ 21 |     header: false
+ 22 |     - Camio Lab Overview:
+----------^
+ 23 |         - abbr: CLO
+ 24 |           href: https://docs.google ...
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (webpack-internal:///./src/utils/config/api-response.js:50:69)
+[2024-09-20T23:46:01.358Z] error: <index> YAMLException: bad indentation of a mapping entry (22:5)
+
+ 19 | 
+ 20 | - Basics:
+ 21 |     header: false
+ 22 |     - Camio Lab Overview:
+----------^
+ 23 |         - abbr: CLO
+ 24 |           href: https://docs.google ...
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (webpack-internal:///./src/utils/config/api-response.js:50:69)
+[2024-09-20T23:46:01.390Z] info: [36mwait[39m  - compiling /api/config/[path] (client and server)...
+[2024-09-20T23:46:01.431Z] info: [35mevent[39m - compiled successfully in 40 ms (353 modules)
+[2024-09-20T23:46:02.919Z] error: YAMLException: bad indentation of a mapping entry (22:5)
+
+ 19 | 
+ 20 | - Basics:
+ 21 |     header: false
+ 22 |     - Camio Lab Overview:
+----------^
+ 23 |         - abbr: CLO
+ 24 |           href: https://docs.google ...
+    at generateError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1273:10)
+    at throwError (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:1277:9)
+    at readBlockMapping (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2272:7)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2531:12)
+    at readBlockSequence (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2098:5)
+    at composeNode (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2530:12)
+    at readDocument (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2715:3)
+    at loadDocuments (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2778:5)
+    at Object.load$1 [as load] (file:///home/lmjacklin/Documents/GitHub/DesignLab_Dashboard/node_modules/.pnpm/js-yaml@4.1.0/node_modules/js-yaml/dist/js-yaml.mjs:2804:19)
+    at bookmarksResponse (webpack-internal:///(api)/./src/utils/config/api-response.js:50:69)
