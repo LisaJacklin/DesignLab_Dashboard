@@ -9,7 +9,7 @@
 # Tailscale ping and link
 #       ping: 100.64.0.24
 #       href: https://100.64.0.24:8006/
-       description: Main server sitting beside the Design Lab FS Switch
+        description: Main server sitting beside the Design Lab FS Switch
 
     - ProxMox - PVE1:
         ping: 10.8.0.11
