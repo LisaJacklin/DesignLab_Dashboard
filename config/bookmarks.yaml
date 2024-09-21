@@ -17,6 +17,10 @@
         - abbr: ANK
           href: https://auth.lab.acep.uaf.edu/if/user/#/library
 
+    - ACEP Wiki:
+        - abbr: WIKI 
+          href: https://wiki.acep.uaf.edu/en/devops/camio
+
 - Basics:
     - Camio Lab Overview Slides:
         - abbr: CLO
