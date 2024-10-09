@@ -4,7 +4,7 @@
 
 
 #these could be helpful to include like the Proxmox, etc access links.
-- Developer:
+- Helpful Links:
     - Data Ducts Github:
         - abbr: DD
           href: https://github.com/acep-uaf/data-ducts
@@ -20,6 +20,11 @@
     - ACEP Wiki:
         - abbr: WIKI 
           href: https://wiki.acep.uaf.edu/en/devops/camio
+
+- Status:
+  - Uptime Kuma:
+    - abbr: UK
+      href: https://status.camio.acep.uaf.edu
 
 - Basics:
     - Camio Lab Overview Slides:
