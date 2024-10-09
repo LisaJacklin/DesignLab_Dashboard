@@ -53,16 +53,7 @@
         href: https://10.3.0.3/
         description: connection to the Dry Lab switch
 
-- PiKVM Connections:
-    - ProxMox in Rack:
-        ping: 10.25.158.247
-        href: https://10.25.158.247/
-        description: Virtual connection to Proxmox in server rack
-        widget:
-          type: proxmox
-      #    url:
-      #    username or key or other
-      # note to use this I need to have API keys...
+          #could look at adding checks for the switch being put into the server rack as well as the one for in Dayne's office....just thoughts
 
 #at some point with the camio backup server TrueNAS should be added in here....
 - Backups:
