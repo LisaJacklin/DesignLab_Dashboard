@@ -25,7 +25,10 @@
         description: Second Proxmox VE Node, currently located within the CAMIO Server Rack
         widget:
           type: proxmox
-
+          url: https://10.25.159.237:8006
+          username: root@pam!LabDash
+          password: 4909d8fe-0002-438c-875d-e6ad2f254df4
+          node: pve-2
     - OpnSense:
         ping: 10.3.0.1
         href: https://10.3.0.1/
