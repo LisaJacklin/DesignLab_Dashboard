@@ -70,7 +70,7 @@
     type: calendar
     firstDayInWeek: sunday
     view: agenda
-    showTime: ture
+    showTime: true
     integration:
       - type: ical
         url: https://calendar.google.com/calendar/ical/lmjacklin%40alaska.edu/public/basic.ics
