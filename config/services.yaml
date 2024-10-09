@@ -17,6 +17,14 @@
         description: In development by John, additional Proxmox to add to cluster
         widget:
           type: proxmox
+            
+# Added PVE2 2024/10/09
+    - PVE2:
+        ping: 10.25.159.237
+        href: https://10.25.159.237:8006/
+        description: Second Proxmox VE Node, currently located within the CAMIO Server Rack
+        widget:
+          type: proxmox
 
     - OpnSense:
         ping: 10.3.0.1
