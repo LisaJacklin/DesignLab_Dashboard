@@ -65,14 +65,14 @@
     - Proxmox Backup Server:
         description: running PBS
 
-
-widget:
-  type: calendar
-  firstDayInWeek: sunday
-  view: agenda
-  showTime: ture
-  integration:
-    - type: ical
-      url: https://calendar.google.com/calendar/ical/lmjacklin%40alaska.edu/public/basic.ics
-      name: Calendar Events
+- Calendar:
+  widget:
+    type: calendar
+    firstDayInWeek: sunday
+    view: agenda
+    showTime: ture
+    integration:
+      - type: ical
+        url: https://calendar.google.com/calendar/ical/lmjacklin%40alaska.edu/public/basic.ics
+        name: Calendar Events
 
