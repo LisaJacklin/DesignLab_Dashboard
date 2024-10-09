@@ -45,12 +45,7 @@ layout:
     style: grid
     columns: 1
 
-  PiKVM Connections:
-    tab: CAMIO Resources
-    style: grid
-    columns: 1
-
-  Developer:
+  Helpful Links:
     tab: CAMIO Resources
     style: row
     columns: 2
