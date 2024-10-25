@@ -4,37 +4,40 @@
 
 - ProxMox Cluster:
     - PVE0:
-# Tailscale ping and link
-       ping: 100.64.0.24
-       href: https://100.64.0.24:8006/
+       ping: 10.25.159.160
+       href: https://10.25.159.160:8006/
+         #siteMonitor: https://10.25.159.160:8006
        description: Main server sitting beside the Design Lab FS Switch
-       widget:
-        type: proxmox
-
+       
     - PVE1:
         ping: 10.8.0.11
         href: https://10.8.0.11:8006/
         description: In development by John, additional Proxmox to add to cluster
-        widget:
-          type: proxmox
+          # widget:
+          # type: proxmox
             
 # Added PVE2 2024/10/09
     - PVE2:
         ping: 10.25.159.237
         href: https://10.25.159.237:8006/
+          #siteMonitor: https://10.25.159.237:8006/
         description: Second Proxmox VE Node, currently located within the CAMIO Server Rack
         widget:
           type: proxmox
           url: https://10.25.159.237:8006
           username: root@pam!labdash
           password: 37247aa5-faaa-46df-8ebf-43f7d816d509
-          node: pve-2
+
+#preparations for PVE3
+    - PVE3:
+        description: preparations for expanded cluster...
+ 
     - OpnSense:
         ping: 10.3.0.1
         href: https://10.3.0.1/
         description: Firewall
-        widget:
-          type: opnsense
+          # widget:
+          #type: opnsense
 
 # The following are items I'd like to include at some point, but not needed right now
 #    - Storage Box: 
@@ -59,9 +62,30 @@
           #could look at adding checks for the switch being put into the server rack as well as the one for in Dayne's office....just thoughts
 
 #at some point with the camio backup server TrueNAS should be added in here....
-- Backups:
-    - Storage Box:
-        description: running TrueNAS
-    - Proxmox Backup Server:
-        description: running PBS
- 
+#- Backups:
+#    - Storage Box:
+#        description: running TrueNAS
+#    - Proxmox Backup Server:
+#        description: running PBS
+
+- Other Service Stats:
+  - Caddy:
+     siteMonitor: caddy.camio.acep.uaf.edu
+     href: caddy.camio.acep.uaf.edu
+
+  - Home Assistant:
+     ping: 10.8.0.125
+     href: https://10.8.0.125:8123
+     description: Home Assistant Machine in Dry Lab
+  #can add a widgt here
+
+- CAMIO Lab Overview:
+  - Slides:
+     widget:
+       type: iframe
+       name: Lab Overview Slides
+       src: https://docs.google.com/presentation/d/1k-Ku94jfimJqoxoJH77_eKMNr16B21Wdeow3iRQWlm0/edit#slide=id.g2e26b00621a_0_9
+       width: "500"
+       height: " 200"
+
+

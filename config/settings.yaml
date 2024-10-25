@@ -28,6 +28,9 @@ layout:
     #header: false
     style: grid
     columns: 1
+  
+  Camio Lab Overview:
+    tab: CAMIO Basics
 
 #now actual hardware stats
   ProxMox Cluster:
@@ -45,7 +48,19 @@ layout:
     style: grid
     columns: 1
 
+  Other Service Stats:
+    tab: CAMIO Resources
+    style: grid
+    columns: 2
+
   Helpful Links:
     tab: CAMIO Resources
     style: row
     columns: 2
+
+  Status: 
+    tab: CAMIO Resources
+    style: row
+    column: 2
+
+  
