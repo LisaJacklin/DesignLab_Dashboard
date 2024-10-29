@@ -21,17 +21,7 @@ useEqualHeights: true
 
 layout:
  #if I wanted tabs, this is where to put them!
-  
 #first, tour and basic overview resources
-  Basics:
-    tab: CAMIO Basics
-    #header: false
-    style: grid
-    columns: 1
-  
-  Camio Lab Overview:
-    tab: CAMIO Basics
-
 #now actual hardware stats
   ProxMox Cluster:
     tab: CAMIO Resources
@@ -63,4 +53,13 @@ layout:
     style: row
     column: 2
 
+  Basics:
+    tab: CAMIO Basics
+    #header: false
+    style: grid
+    columns: 1
   
+  CAMIO Lab Overview:
+    tab: CAMIO Basics
+
+ 

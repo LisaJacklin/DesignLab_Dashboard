@@ -80,12 +80,11 @@
   #can add a widgt here
 
 - CAMIO Lab Overview:
-  - Slides:
+  - CAMIO Lab Slide Deck:
      widget:
        type: iframe
        name: Lab Overview Slides
-       src: https://docs.google.com/presentation/d/1k-Ku94jfimJqoxoJH77_eKMNr16B21Wdeow3iRQWlm0/edit#slide=id.g2e26b00621a_0_9
-       width: "500"
-       height: " 200"
-
-
+       src: "https://docs.google.com/presentation/d/e/2PACX-1vQeBfEnEl2RfBsES5NdWkhYxU3lo2QPncRDhP2CthglajhvZoa7bQGNVQPtc6XzE_-g0Zie_TgGSZeO/embed?start=false&loop=false&delayms=5000"
+       border: "none" 
+       width: "1440px" 
+       height: "839px" 
